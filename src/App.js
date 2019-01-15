@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './images/svg/Openbot.svg';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div class="jumbotron">
+        <div class="jumbotron" id="header">
           <div class="container text-center">
-            <h1>My Portfolio</h1>      
-            <p>Some text that represents "Me"...</p>
+            <img src={logo} id="openbotlogo"/>   
           </div>
         </div>
+        <div class="container-fluid bg-3 text-center">    
+          <p>Join us discussing & developing free, open-source trading algorithms.</p>
+        </div>
+  
+
       </div>
     );
   }
