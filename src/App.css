@@ -6,6 +6,15 @@
   background-color: black;
 }
 
-#openbotlogo {
-  margin: 10px;
+#banner {
+  margin: 20px auto;
+}
+
+#logos {
+  height: 64px;
+  width: 64px;
+}
+
+#text {
+  margin: 30px 20px;
 }
