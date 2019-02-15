@@ -23,15 +23,21 @@ class App extends Component {
         <Row className="show-grid">
           <Col xs={6} md={6}>
             <p>Code</p>
-            <img src={githubpic} id="logos" alt="github"/> 
+            <a className="App-link" href="https://github.com/openbot-tech">
+              <img src={githubpic} id="logos" alt="github"/> 
+            </a>
           </Col>
           <Col xs={6} md={6}>
             <p>Chat</p>
-            <img src={discordpic} id="logos" alt="discord"/>   
+            <a className="App-link" href="https://discord.gg/6d4v6YC"> 
+              <img src={discordpic} id="logos" alt="discord"/>  
+            </a>   
           </Col>
           <Col xs={6} md={6}>
             <p>Follow</p>
-            <img src={twitterpic} id="logos" alt="twitter"/>    
+            <a className="App-link" href="https://twitter.com/openbot_tech"> 
+            <img src={twitterpic} id="logos" alt="twitter"/>  
+            </a> 
           </Col>
         </Row>
       </Grid>
